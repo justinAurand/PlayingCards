@@ -7,7 +7,7 @@
 		private Rank rank;
 		#endregion
 
-		#region Methods
+		#region Accessors
 		public Suit Suit
 		{
 			get { return suit; }
