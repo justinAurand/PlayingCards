@@ -1,6 +1,3 @@
-﻿// Credit to Sam Jenkins for great ideas in approaching this
-// http://satalketo.com/2013/04/deck-of-cards-in-c/
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
