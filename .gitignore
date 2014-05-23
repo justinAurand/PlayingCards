@@ -11,6 +11,7 @@
 *.sln.docstates
 
 # Build results
+
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -21,6 +22,7 @@ build/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+
 *_i.c
 *_p.c
 *.ilk
@@ -45,6 +47,52 @@ build/
 *.log
 *.scc
 
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
 # Publish Web Output
 *.Publish.xml
 *.pubxml
@@ -56,6 +104,9 @@ build/
 # Windows Azure Build Output
 csx
 *.build.csdef
+
+# Windows Store app package directory
+AppPackages/
 
 # Others
 sql/
@@ -69,6 +120,9 @@ ClientBin/
 *.pfx
 *.publishsettings
 
+# RIA/Silverlight projects
+Generated_Code/
+
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
 _UpgradeReport_Files/
@@ -79,7 +133,6 @@ UpgradeLog*.htm
 # SQL Server files
 App_Data/*.mdf
 App_Data/*.ldf
-
 
 #############
 ## Windows detritus
