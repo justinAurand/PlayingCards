@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DeckOfCards
+﻿namespace DeckOfCards
 {
+	using System;
+	using System.Collections.Generic;
+
 	interface IDeck
 	{
 		void Reset();

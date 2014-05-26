@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace DeckOfCards
+﻿namespace DeckOfCards
 {
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+
 	public class Deck : IDeck
 	{
-		// Field
+		// Field.
 		private List<Card> cards;
 
-		// Constructor
+		// Constructor.
 		public Deck()
 		{
 			Reset();

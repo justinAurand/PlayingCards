@@ -2,33 +2,25 @@
 {
 	public class Card
 	{
-		#region Fields
+		// Fields.
 		private Suit suit;
 		private Rank rank;
-		#endregion
 
-		#region Accessors
-		public Suit Suit
-		{
-			get { return suit; }
-		}
-		public Rank Rank
-		{
-			get { return rank; }
-		}
-		#endregion
+		// Properties.
+		public Suit Suit { get { return suit; } }
+		public Rank Rank { get { return rank; } }
 
-		// Constructor
+		// Constructor.
 		public Card(Suit suit, Rank rank)
 		{
 			this.suit = suit;
 			this.rank = rank;
 		}
 
-		// Override
+		// Override.
 		public override string ToString()
 		{
-			// Return card description in readable format, ex. "Jack of Clubs"
+			// Return card description in readable format. Ex: "Jack of Clubs"
 			return rank.ToString() + " of " + suit.ToString() + "s";
 		}
 	}
